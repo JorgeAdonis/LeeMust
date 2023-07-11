@@ -52,22 +52,137 @@ header a{
 
 }
 */
-.bkc{
-    background-color: #56633a;
-}
+.accion{
+    padding-right: 80px;}
+.suspenso{
+    padding-right: 80px;}
+.terror{
+    padding-right: 80px;}
+.drama{
+    padding-right: 80px;}
 
 .ltr{
-    color: antiquewhite;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300px;
+    
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration:double;
+   font-family: 'Montserrat', sans-serif
+    
+
+             
+}
+
+
+.bkc{
+    background-color: #9eaa85;
+    height: 100px;
+   
+
 
 }
-.all:hover{
-    color:aqua;
-    text-decoration:chartreuse;
+
+
+.ltr:hover{
+    color:rgba(30, 56, 29, 0.411);
+    
 }
 
  
+/*Cardsss*/
+h2{
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: solid;
+    font-size: 3rem;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+.card-body{
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+    
+ 
+
+}
+
+.card-body .btn{
+    font-size: 17px;
+    color:aliceblue;
+    background-color: #9eaa85;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+}
+
+.btn:hover{
+    background-color: #b8bcf0;
+}
+
+div> img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px; 
+
+ 
+
+}
+
+.Cterror{
+    padding: 30px;
+    border: 2px solid #1c2505 ;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+  
+}
+
+.Cdrama{
+    padding: 30px;
+    border: 2px solid #1c2505 ;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+}
+
+.Cacci{
+    padding: 30px;
+    border: 2px solid #1c2505 ;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+}
+
+.Cfan{
+    padding: 30px;
+    border: 2px solid #1c2505 ;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+
+}
+
+
+h5{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.card-text{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 1.5rem;
+
+}
+
+
 
 /*Main*/
 article img{
@@ -77,7 +192,7 @@ article img{
 
 footer{
     background-color: rgb(170, 189, 206);
-    height: 280px;
+    height: 3rem;
     width: 100%;
     background-size: contain ;
 }

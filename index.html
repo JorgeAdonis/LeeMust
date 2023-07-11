@@ -6,76 +6,83 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Bienvenido a LeeMust</title>
-    <link rel="stylesheet" href="/ConBootstrap/Estilos/CssBoot.css">
+    <link rel="stylesheet" href="/CSS.css">
 </head>
 
   <body>
     <header>
+      <!--Nav Bar-->
         <nav class="navbar navbar-expand-lg bkc">
             <div class="container-fluid">
-              <a class="navbar-brand ltr" href="#">LeeMust</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon ltr"></span>
+              <!--<img src="/Medios/imagenes/logolee.png" alt="" width="80" height="80" class="d-inline-block align-text-top">-->
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav all">
-                  <li class="nav-item">
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  ms-auto todo">
+                   <li class="nav-item accion">
                     <a class="nav-link ltr" href="/Pages/accion.html">Acción</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item drama">
                     <a class="nav-link ltr" href="/Pages/drama.html">Drama</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link ltr" href="/Pages/suspenso.html">Suspenso</a>
+                  <li class="nav-item suspenso">
+                    <a class="nav-link ltr" href="/Pages/suspenso.html">Fantasía</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item terror">
                     <a class="nav-link ltr" href="/Pages/terror.html">Terror</a>
                   </li>
-                </ul>
+                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <!--<header>
-            <a href="#"><img src="/Medios/imagenes/logolee.png" alt=""></a>
-            <nav>
-                <ul>
-                    <li><a href="/Pages/accion.html">Acción</a></li>
-                   <li><a href="/Pages/drama.html">Drama</a></li>
-                   <li><a href="/Pages/suspenso.html">Suspenso</a></li>
-                   <li><a href="/Pages/terror.html">Terror</a></li>
-               </ul>
-           </nav>
-    
-    </header>-->
-    <!--Carrusel-->
+    <!--Search-->
     <main>
-        <section class="h-30">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/Medios/imagenes/despuesdeSlide.png" class="d-block w-20 " alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="/Medios/imagenes/comodisSlide.png" class="d-block w-20 " alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="/Medios/imagenes/Detectives.png" class="d-block w-20 " alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <section>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Introduce un Título" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
           </div>
-        </section>
+        </nav>
+      </section>
     </main>
+<!--Cards-->
+    <section>
+      <h2>¿Que quieres leer?</h2>
+              <div class="card-body">
+          <div class="Cterror">
+            <img src="/Medios/imagenes/Terror.png" class="card-img-top" alt="">
+            <h5 class="card-title">Terror</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">Ver Títulos</a>
+          </div>
+          <div class="Cdrama">
+            <img src="/Medios/imagenes/Drama.png" class="card-img-top" alt="">
+            <h5 class="card-title">Drama</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">Ver Títulos</a>
+          </div>
+          <div class="Cacci">  
+            <img src="/Medios/imagenes/accion.png" class="card-img-top" alt="">
+            <h5 class="card-title">Acción</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">Ver Títulos</a>
+          </div>
+          <div class="Cfan">
+            <img src="/Medios/imagenes/Fantasia.png" class="card-img-top" alt="">
+            <h5 class="card-title">Fantasía</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn">Ver Títulos</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<main>
+
+
+<!--<main>
     <h1>Nuevos Lanzamientos</h1>
     <article class="Libro1 row">
         <img src="/Medios/imagenes/el_resplandor.png" class="col-lg-4 col-sm-6 col-12">
@@ -109,6 +116,7 @@
     </article>
 
 </main>
+-->
 
 
     <footer>
@@ -116,11 +124,6 @@
         <img class="face" src="/Medios/imagenes/logoface.png" alt="">
         <img class="insta" src="/Medios/imagenes/logoinsta.png" alt="">
     </footer>
-
-
-
-
-
 
 
 
