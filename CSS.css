@@ -11,71 +11,38 @@ html{
  
 }
 
-/*header*/
-/*header{
-    background-color: #56633a;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-  
-    }
-
-header img{
-    width: 30%;
-    margin-top:5px;
-    margin-left: 5px;
-
-}
-
-nav{
-    width: 60%;
-}
-
-header ul{
-
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between ;
-    align-items: center;
-    padding-right: 50px;
- 
-}
-
-header a{
-    color: #d7ebb8;
-    text-decoration: none;
-    font-size: 2rem;
-
-
-
-}
-*/
-
 /*NavBar*/
-
+.logo{
+    height: 5rem;
+    width: 10rem;
+    padding-left: 1.25rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(224, 239, 252);
+}
 .accion{
-    padding-right: 80px;}
+    padding-right: 3.75rem;}
 .suspenso{
-    padding-right: 80px;}
+    padding-right: 3.75rem;}
 .terror{
-    padding-right: 80px;}
+    padding-right: 3.75rem;}
 .drama{
-    padding-right: 80px;}
+    padding-right: 3.75rem;}
 
 .ltr{
     
-    font-size: 25px;
-    color: rgb(60, 86, 109);
+    font-size: 1.563rem;
+    color: rgb(224, 239, 252);
     text-decoration:double;
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
                  
 }
 .bkc{
-    background-color: #dde4cf;
-    height: 100px;
+    background-color: #164B60;
+    height: 6.25rem;
    
 }
 .ltr:hover{
@@ -84,48 +51,76 @@ header a{
 }
 
 /*Buscador*/
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    padding-top: 6.25rem;
+    padding-left: 5rem;
+    padding-bottom: 1.875rem;
+    background-color:#F7FFE5;
+    text-shadow: 1px 4px 2px rgba(0,0,0,0.6);
+    margin: 0rem;    
+    background-image: url(/Medios/imagenes/libro-digital.png);
+    background-repeat: no-repeat;
+    background-position:  115rem 3rem; 
+    background-size: 12rem
+
+
+}
+
+.subititulo{
+    text-align: left;
+    padding-left: 12rem ;
+    font-size: 2rem;
+    padding-top: 0.62rem;
+    padding-bottom: 3rem;
+    background-color:#F7FFE5;
+    box-shadow: -3px 20px 5px 4px #164B60;
+}
 .container-fluidsr{
-    padding-right: 0px;
-    padding: 500px 580px 300px 100px;
-    background-color:rgb(252, 252, 252); ;
-    margin: 0px;
+    padding: 15rem 20rem 20rem 3rem;
     background-image: url(/Medios/imagenes/books-composition-3d-render-free-png.webp);
     background-position:right top;
-    background-size: 1000px;
+    background-size: 43.75rem;
     background-repeat: no-repeat;
-    
- 
+    margin-top: 7rem;
+
 }
 .me-2{
-    height: 80px;
-    width: 600px;
-    font-size: 40px;
-    border-radius: 30px;
+    height: 5rem;
+    width: 37.5rem;
+    font-size: 2.5rem;
+    border-radius: 1.875rem;
     font-family: 'Montserrat', sans-serif;
-    background-color:rgb(247, 247, 242);
+    background-color:#f7f7f2;
     border: none;
 
 }
 
 .btnbuscar{
-    width: 400px;
+    width: 25rem;
     border: none;
     background-color:rgb(252, 252, 252); ;
-    font-size: 40px ;
+    font-size: 2.5rem ;
+    border-radius: 2.5rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 .btnbuscar:hover{
-    background-color: #c3ceab;
-    border: #1c2505;
+    background-color:#164B60;
+    ;
+    color: rgb(247, 247, 242);
+
 }
 /*Cardsss*/
 h2{
     background-color: beige;
+    color: #164B60;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: solid;
-    font-size: 7rem;
-    padding: 100px 0px 20px 100px;
+    font-size: 5rem;
+    padding: 6.25rem 0px 0px 3.75rem;
     margin-bottom: 0px;
     
 }
@@ -133,19 +128,19 @@ h2{
 .card-body{
     display: flex;
     background-color: beige;
-padding-top: 60px;
-padding-bottom: 150px;
+padding-top: 3.75rem;
+padding-bottom: 9.375rem;
     
  
 
 }
 
 .card-body .btn{
-    font-size: 20px;
-    color:rgb(41, 45, 49);
-    background-color: #c3ceab;
+    font-size: 1.25rem;
+    color:beige;
+    background-color: #164B60;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem ;
     text-decoration: solid;
     border: 2px solid #1c2505 ;
 
@@ -153,22 +148,21 @@ padding-bottom: 150px;
 }
 
 .btn:hover{
-    background-color: #b8bcf0;
+    background-color: #F7FFE5;
+    color: #164B60;
 }
 
 div> img{
-    width: 250px;
-    height: 320px;
-    border-radius: 20px; 
+    width: 11.25rem;
+    height: 14.375rem;
+    border-radius: 1.25rem; 
 
- 
-
-}
+ }
 
 .Cterror{
-    padding: 30px;
+    padding: 1.875rem;
     border: 2px solid #1c2505 ;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     margin: 30px;
     background-color: rgb(252, 252, 252);
     box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
@@ -176,81 +170,103 @@ div> img{
 }
 
 .Cdrama{
-    padding: 30px;
+    padding: 1.875rem;
     border: 2px solid #1c2505 ;
-    border-radius: 20px 20px 20px 20px;
-    margin: 30px;;
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin: 30px;
     background-color: rgb(252, 252, 252);
+    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
 
 }
 
 .Cacci{
-    padding: 30px;
+    padding: 1.875rem;
     border: 2px solid #1c2505 ;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     margin: 30px;
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
     background-color: rgb(252, 252, 252);
-
+    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
 }
 
 .Cfan{
-    padding: 30px;
+    padding: 1.875rem;
     border: 2px solid #1c2505 ;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     margin: 30px;
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
     background-color: rgb(252, 252, 252);
+    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
 
 
 }
 
-
 h5{
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
-    
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 
 }
 .card-text{
     font-family:'Montserrat', sans-serif ;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 
 }
 
-
-
-/*Main*/
-article img{
-    width: 30%;
-}
 /*Footer*/
-
-footer{
-    background-color: rgb(170, 189, 206);
-    height: 3rem;
-    width: 100%;
-    background-size: contain ;
+.navbar{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #164B60;
 }
 
-.rrss{
-    color: #1c2505;
-    text-transform: uppercase;
-    padding: 30px;
-    background-color: azure;
-    text-align: left;
-    font-size: medium;
-    margin-left: 0px;
-    padding-left: 20px;
-   }
-footer>img{
-    width: 50px;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20px;
-    justify-content: left;
-    margin-left: 10px;
-    padding-top: 20px;
+/*Suscribete*/
+.logo1{
+   background-color: #164B60;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
 
-    }
+.logo12{
+    width: 14rem;
+    height: 11rem;
+    margin-top: 2rem;
+}
+
+.sus{
+   font-size: 1.3rem;
+   font-family:'Montserrat', sans-serif ;
+   margin: 0.5rem;
+   color: #ffffff;
+   
+}
+
+.me-3{
+    width: 15rem;
+    font-family:'Montserrat', sans-serif ;
+    color: #164B60;
+}
+.btp{
+    width: 10rem;
+    font-family:'Montserrat', sans-serif ;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    color: #164B60;   
+    border: none; 
+}
+.alfo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #164B60;
+}
+
+.face{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    margin-top: 2rem;
+
+}
