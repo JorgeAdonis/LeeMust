@@ -8,106 +8,99 @@
     <title>Bienvenido a dbleer</title>
     <link rel="stylesheet" href="/CSS.css">
 </head>
-
+<!--NavBar-->
   <body>
-    <header>
-      <!--Nav Bar-->
-        <nav class="navbar navbar-expand bkc">
-            <div class="container-fluid ">
-              <img class="logo " src="/Medios/imagenes/dbleerlogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
-              <a class="navbar-brand " href="">Home</a>
-              <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav  ms-auto todo">
-                   <li class="nav-item accion">
-                    <a class="nav-link ltr" href="/Pages/accion.html">Novedades</a>
-                  </li>
-                  <li class="nav-item drama">
-                    <a class="nav-link ltr" href="/Pages/drama.html">Editoriales</a>
-                  </li>
-                  <li class="nav-item suspenso">
-                    <a class="nav-link ltr" href="/Pages/suspenso.html">Biblioteca</a>
-                  </li>
-                  <li class="nav-item terror">
-                    <a class="nav-link ltr" href="/Pages/terror.html">Contáctanos</a>
-                  </li>
-                 </ul>
-              </div>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid col-12">
+          <img class="logo col-1 " src="/Medios/imagenes/Logo.png"  alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+          <a class="navbar-brand" href="/index.html">Home</a>
+        <div class="btns  d-block">
+      </div>
+        </button>
+        <div  id="navbarNav  ">
+            <div class="navbar-nav ms-auto ltr">
+                <a class="nav-item nav-link novedades" href="/pages/Novedades.html">Novedades</a>
+                <a class="nav-item nav-link editoriales" href="/pages/Editoriales.html">Editoriales</a>
+                <a class="nav-item nav-link biblioteca" href="/pages/Biblioteca.html">Biblioteca</a>
+                <a class="nav-item nav-link contactanos" href="/pages/Contactáctanos.html">Contactános</a>
             </div>
-          </nav>
-    </header>
-    <!--Search-->
-    <main>
-      <section>
-        <div class="posth col-12 col-sm-12 col-md-12 col-lg-12">
-          <h3 class="col-12 col-sm-12 col-md-12 col-lg-12">Encuentra el libro que buscas</h3>
-          <p class="subititulo ">Bienvenido al sitio donde puedes encontras tus títulos favoritos y otros por descubrir.</p>
         </div>
-        <nav class="navbar bg-body-tertiary">
-          <div class="container-fluidsr">
-            <form class="d-flex" role="search">
+      </nav>
+    <header>
+      <div class="container">
+        <h3 class="title1 pt-5 mb-2 ">Encuentra el libro <br> que buscas</h3> 
+        <p class="subtitle1 mt-3 mb- ">Zombie ipsum reversus ab viral inferno, nam rick grimes malum Zombie <br>ipsum reversus ab viral inferno, nam rick grimes malum</p>
+      </div>
+    </header>
+
+<!--Search-->
+    <main>
+      <div class="row">
+        <nav class="navbar bg-body-tertiary" id="buscador">
+          <div class="container">
+            <form class="d-columns" role="search">
               <input class="form-control me-2" type="search" placeholder="Introduce un Título" aria-label="Search">
               <button class="btnbuscar" type="submit">Buscar</button>
             </form>
           </div>
+          </div>
         </nav>
-      </section>
     </main>
 <!--Cards-->
-    <section>
-      <h2 class="subti">¿Que quieres leer?</h2>
-        <div class="card-body col-6 col-sm-12 col-md-12 col-lg-12">
-            <div class="Cterror">
-            <img src="/Medios/imagenes/Terror.png" class="card-img-top" alt="">
-            <h5 class="card-title">Terror</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn ">Ver Títulos</a>
-          </div>
-          <div class="Cdrama">
-            <img src="/Medios/imagenes/Drama.png" class="card-img-top" alt="">
-            <h5 class="card-title">Drama</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn ">Ver Títulos</a>
-          </div>
-          <div class="Cacci">  
-            <img src="/Medios/imagenes/accion.png" class="card-img-top" alt="">
-            <h5 class="card-title">Acción</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn ">Ver Títulos</a>
-          </div>
-          <div class="Cfan">
-            <img src="/Medios/imagenes/Fantasia.png" class="card-img-top" alt="">
-            <h5 class="card-title">Fantasía</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn">Ver Títulos</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <footer>
-      <div class="logo1">
-        <img class="logo12" src="/Medios/imagenes/dbleerlogo.png" alt="">
-      </div>
-         <nav class="navbar col-12 col-sm-12 col-md-12 col-lg-12">
-          
-           <div class="container-fluidbtp">
-            <h4 class="sus">Suscríbete a nuestro sitio</h4>
-              <form class="d-flex " role="search">
-                <input class="form-control me-3" type="search" placeholder="Dejanos tu Email" aria-label="Search">
-                <button class="btp" type="submit">Enviar</button>
-              </form>
+<section>
+      <div class="row ">
+        <div class="container text-center">
+          <h2 class="title2 pb-5">O elige tu Genero favorito</h2>
+            <div class="row text-center mx-5 my-5" id="Cards">
+              <div class="col  bor">
+                <div class="card mx-5 my-5" style="width: 25rem;">
+                <img src="/Medios/imagenes/Drama.png" alt="drama">
+                <h4 class="Crt1 fw-bolder mt-3">Drama</h4>
+                <p class="Crt2">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.</p>
+                <button class="btn my-4"  type="submit">Ver Títulos</button>
+              </div>
             </div>
-          </nav>
+              <div class="col bor ">
+                <div class="card mx-5 my-5 " style="width: 25rem;">
+                <img src="/Medios/imagenes/Terror.png" alt="terror">
+                <h4 class="Crt1 fw-bolder mt-3">Terror</h4>
+                <p class="Crt2">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.</p>
+                <button class="btn my-4" type="submit">Ver Títulos</button>
+              </div>
+            </div>
+              <div class="col bor ">
+                <div class="card mx-5 my-5 " style="width: 25rem;">
+                <img src="/Medios/imagenes/Fantasia.png" alt="Fantasia">
+                <h4 class="Crt1 fw-bolder mt-3">Fantasía</h4>
+                <p class="Crt2 ">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.</p>
+                <button class="btn my-4" type="submit">Ver Títulos</button>
+            </div>
+          </div>
         </div>
-        <div class="alfo3">
+      </div>
+    </section>      
+        
+<!--Footer-->
+<footer class="col-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="logo1">
+    <img class="logo12" src="/Medios/imagenes/Logo.png" alt="">
+      </div>
+      <nav class="navbar col-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="container-fluidbtp">
+            <h4 class="sus col-12 col-sm-12 col-md-12 col-lg-12">Suscríbete a nuestro sitio</h4>
+              <form class="d-flex col-12 col-sm-12 col-md-12 col-lg-12" role="search">
+                  <input class="form-control me-3" type="search" placeholder="Dejanos tu Email" aria-label="Search">
+                  <button class="btp" type="submit">Enviar</button>
+              </form>
+        </div>
+      </nav>
+  </div>
+      <div class="alfo3 col-12 col-sm-12 col-md-12 col-lg-12">
             <img class="face" src="/Medios/imagenes/logoface.png" alt="">
             <img  class="face"src="/Medios/imagenes/logoinsta.png" alt="">
             <img class="face" src="/Medios/imagenes/logogo.png" alt="">
-        </div>
       </div>
-    </footer>
+</footer>
 
 
 

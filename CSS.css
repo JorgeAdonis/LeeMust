@@ -11,38 +11,88 @@ html{
  
 }
 
+/*header*/
+/*header{
+    background-color: #56633a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  
+    }
+
+header img{
+    width: 30%;
+    margin-top:5px;
+    margin-left: 5px;
+
+}
+
+nav{
+    width: 60%;
+}
+
+header ul{
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding-right: 50px;
+ 
+}
+
+header a{
+    color: #d7ebb8;
+    text-decoration: none;
+    font-size: 2rem;
+
+
+
+}
+*/
+
 /*NavBar*/
 .logo{
-    height: 5rem;
-    width: 10rem;
-    padding-left: 1.25rem;
+    height: 4rem;
+    width: 9rem;
+    margin-left: 2rem;
 }
 .navbar-brand{
-    font-size: 1.5rem;
-    padding-left: 1.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(224, 239, 252);
+    
 }
-.accion{
-    padding-right: 3.75rem;}
-.suspenso{
-    padding-right: 3.75rem;}
-.terror{
-    padding-right: 3.75rem;}
-.drama{
-    padding-right: 3.75rem;}
+.novedades{
+    color: rgb(224, 239, 252);
+    padding-right: 6rem;}
+.editoriales{
+    color: rgb(224, 239, 252);
+
+    padding-right: 6rem;}
+.biblioteca{
+    color: rgb(224, 239, 252);
+
+    padding-right: 3rem;}
+.contactanos{
+    color: rgb(224, 239, 252);
+
+    padding-right: 6rem;}
 
 .ltr{
     
-    font-size: 1.563rem;
+    font-size: 1.6rem;
+    padding-right: 6rem;
     color: rgb(224, 239, 252);
-    text-decoration:double;
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'Montserrat', sans-serif;
                  
 }
 .bkc{
     background-color: #164B60;
-    height: 6.25rem;
+    height: 10rem;
    
 }
 .ltr:hover{
@@ -50,48 +100,42 @@ html{
     
 }
 
-/*Buscador*/
+/*Header*/
+header {
+    background-image: url(/Medios/imagenes/backgroundweb.png);
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
 
-h3{
-    font-family: 'Montserrat', sans-serif;
+}
+.title1{
+    color: rgb(63, 77, 90);
     font-size: 5rem;
-    padding-top: 6.25rem;
-    padding-left: 5rem;
-    padding-bottom: 1.875rem;
-    background-color:#F7FFE5;
-    text-shadow: 1px 4px 2px rgba(0,0,0,0.6);
-    margin: 0rem;    
-    background-image: url(/Medios/imagenes/libro-digital.png);
-    background-repeat: no-repeat;
-    background-position:  115rem 3rem; 
-    background-size: 12rem
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-
-.subititulo{
-    text-align: left;
-    padding-left: 12rem ;
-    font-size: 2rem;
-    padding-top: 0.62rem;
-    padding-bottom: 3rem;
-    background-color:#F7FFE5;
-    box-shadow: -3px 20px 5px 4px #164B60;
+.subtitle1{
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color:black
 }
-.container-fluidsr{
-    padding: 15rem 20rem 20rem 3rem;
-    background-image: url(/Medios/imagenes/books-composition-3d-render-free-png.webp);
-    background-position:right top;
-    background-size: 43.75rem;
-    background-repeat: no-repeat;
-    margin-top: 7rem;
+
+
+/*Search*/
+
+
+#buscador{
+    background-image: url(/Medios/imagenes/backgroundweb2.png);
+    height: 60rem;
+    background-size: cover;
+    margin: 0;
 
 }
 .me-2{
-    height: 5rem;
+    height: 4rem;
     width: 37.5rem;
-    font-size: 2.5rem;
-    border-radius: 1.875rem;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     background-color:#f7f7f2;
     border: none;
@@ -99,23 +143,24 @@ h3{
 }
 
 .btnbuscar{
-    width: 25rem;
+    width: 15rem;
+    margin-top: 2rem;
+    height: 3rem;
     border: none;
     background-color:rgb(252, 252, 252); ;
-    font-size: 2.5rem ;
-    border-radius: 2.5rem;
+    font-size: 1.8rem ;
+    color: #164B60;
+    border-radius: 2rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 .btnbuscar:hover{
     background-color:#164B60;
-    ;
     color: rgb(247, 247, 242);
 
 }
-/*Cardsss*/
-h2{
-    background-color: beige;
+/*Subitutilo*/
+.title2{
     color: #164B60;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: solid;
@@ -124,93 +169,51 @@ h2{
     margin-bottom: 0px;
     
 }
+/*Cardsss*/
 
-.card-body{
-    display: flex;
-    background-color: beige;
-padding-top: 3.75rem;
-padding-bottom: 9.375rem;
+.btn{
+    color: #f7f7f2;
+    background-color: #164B60;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    width: 12rem;
+    margin-left: 25%;
+
+}
+.row{
+    margin: 0;
+    background-color:#f7f7f2;
+    padding: 0;
     
- 
+}
+#Cards img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 15%;
+    margin: 2rem;
+}
+.card{
+    border-radius: 10px 10px 10px 10px;
+    color: #164B60;
+
+}
+.Crt1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
 
 }
 
-.card-body .btn{
-    font-size: 1.25rem;
-    color:beige;
-    background-color: #164B60;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem ;
-    text-decoration: solid;
-    border: 2px solid #1c2505 ;
+.Crt2{
+        font-family: 'Montserrat', sans-serif;
 
-    
 }
 
 .btn:hover{
-    background-color: #F7FFE5;
-    color: #164B60;
+    background-color: #f7f7f2;
+    text-decoration: solid;
 }
 
-div> img{
-    width: 11.25rem;
-    height: 14.375rem;
-    border-radius: 1.25rem; 
-
- }
-
-.Cterror{
-    padding: 1.875rem;
-    border: 2px solid #1c2505 ;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
-    margin: 30px;
-    background-color: rgb(252, 252, 252);
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
-  
-}
-
-.Cdrama{
-    padding: 1.875rem;
-    border: 2px solid #1c2505 ;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
-    margin: 30px;
-    background-color: rgb(252, 252, 252);
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
-
-}
-
-.Cacci{
-    padding: 1.875rem;
-    border: 2px solid #1c2505 ;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
-    margin: 30px;
-    background-color: rgb(252, 252, 252);
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
-}
-
-.Cfan{
-    padding: 1.875rem;
-    border: 2px solid #1c2505 ;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
-    margin: 30px;
-    background-color: rgb(252, 252, 252);
-    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
-
-
-}
-
-h5{
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-
-}
-.card-text{
-    font-family:'Montserrat', sans-serif ;
-    font-size: 1.4rem;
-
-}
 
 /*Footer*/
 .navbar{
@@ -230,13 +233,14 @@ h5{
  }
 
 .logo12{
-    width: 14rem;
-    height: 11rem;
-    margin-top: 2rem;
+    width: 10rem;
+    height: 7rem;
+    margin-top: 3rem;
+
 }
 
 .sus{
-   font-size: 1.3rem;
+   font-size: 1rem;
    font-family:'Montserrat', sans-serif ;
    margin: 0.5rem;
    color: #ffffff;
@@ -244,14 +248,14 @@ h5{
 }
 
 .me-3{
-    width: 15rem;
+    width: 12rem;
     font-family:'Montserrat', sans-serif ;
     color: #164B60;
 }
 .btp{
-    width: 10rem;
+    width: 5rem;
     font-family:'Montserrat', sans-serif ;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    border-radius: 1rem;
     color: #164B60;   
     border: none; 
 }
@@ -263,10 +267,14 @@ h5{
     background-color: #164B60;
 }
 
+
 .face{
-    width: 2rem;
-    height: 2rem;
-    margin: 1rem;
-    margin-top: 2rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    margin: 1.5rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+
+
 
 }
