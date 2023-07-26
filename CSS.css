@@ -252,8 +252,112 @@ header {
 
 }
 
+/*NOVEDADES__HEADER*/
+
+/*NOVEDADES__CARDS*/
+body{
+    background-color: #164B60;
+}
+.tnv{
+    background-color: #f7f7f2;
+    padding-top:  2rem;
+    padding-bottom: 2rem;
+    box-shadow: 10px 9px 5px 3px rgba(0,0,0,0.51);
+    border-radius: 20px;
+}
+.contno{
+    border: 2px solid #164B60;
+    border-radius: 20px;
+    margin: 3rem;
+    margin-top: 4rem;
+
+}
+.nov{
+    background-image: url(/Medios/imagenes/Backgroundnoveda.png);
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    
+}
+
+.descri{
+    font-family: 'Montserrat', sans-serif;
+    color:#164B60;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+.novtext{
+    font-family: 'Montserrat', sans-serif;
+    color:#164B60;
+    font-size: 1.1rem;
+    margin-top: 1rem;
 
 
+}
+.edistext{
+    font-size: 1.3rem;
+    color:#164B60;
+    margin-top: 1rem;
+    text-decoration: solid;
+
+
+}
+.imno{
+    width: 12rem;
+    height: 20rem;
+    border-radius: 15px;
+    }
+.star{
+        width: 10rem;
+        height: 2rem;
+        margin-top: 1rem;
+        
+}
+
+.editext2{
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btnnov{
+    height: 3rem;
+    width: 10rem;
+    background-color: #164B60;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    color: #f7f7f2;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.noveda{
+    display: flex;
+}
+.btnnov:hover{
+    background-color: #f7f7f2;
+    color: #164B60;
+}
+.btnseghover{
+    background-color: #f7f7f2;
+    color: #164B60;
+}
+
+.btnseg{
+    height: 5rem;
+    width: 18rem;
+    background-color: #164B60;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    color: #f7f7f2;
+    align-items: end;
+    justify-content: center;
+
+}
 /*Search*/
 #buscador{
     background-image: url(/Medios/imagenes/backgroundweb2.png);
@@ -300,7 +404,9 @@ header {
     
 }
 /*Cardsss*/
-
+.col{
+    width: 30rem;
+}
 .btn{
     color: #f7f7f2;
     background-color: #164B60;
@@ -339,6 +445,7 @@ header {
 
 .Crt2{
         font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
 
 }
 
