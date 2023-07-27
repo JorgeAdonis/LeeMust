@@ -236,7 +236,7 @@ header {
 .editoto{
     width: 100%;
     background-color: #f7f7f2;
-}
+ }
 .editoto img{
     width: 30rem;
     height: 20rem;
@@ -251,8 +251,25 @@ header {
 
 
 }
+/*BIBLIO_HEADER*/
+.bio{
+    background-image: url(/Medios/imagenes/Backgroundbiblio.png);
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    
+}
+
+/*BIBLIO_CARDS*/
 
 /*NOVEDADES__HEADER*/
+.nov{
+    background-image: url(/Medios/imagenes/Backgroundnoveda.png);
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    
+}
 
 /*NOVEDADES__CARDS*/
 body{
@@ -272,13 +289,7 @@ body{
     margin-top: 4rem;
 
 }
-.nov{
-    background-image: url(/Medios/imagenes/Backgroundnoveda.png);
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-    
-}
+
 
 .descri{
     font-family: 'Montserrat', sans-serif;
@@ -288,12 +299,10 @@ body{
 
 }
 .novtext{
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     color:#164B60;
-    font-size: 1.1rem;
     margin-top: 1rem;
-
-
+    text-decoration: solid;
 }
 .edistext{
     font-size: 1.3rem;
@@ -341,7 +350,7 @@ body{
     background-color: #f7f7f2;
     color: #164B60;
 }
-.btnseghover{
+.btnseg:hover{
     background-color: #f7f7f2;
     color: #164B60;
 }
