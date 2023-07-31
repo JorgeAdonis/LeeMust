@@ -1,0 +1,55 @@
+//CONTACTANOS_HEADER//
+.fr{
+    background-image: url(/Medios/imagenes/Backgroundcontac.png);
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    h3{
+        color: rgb(44, 58, 71);
+        font-size: 5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+    p{
+        font-size: 1.8rem;
+        font-family: 'Montserrat', sans-serif;
+        color:black
+    }
+}
+//CONTACTANOS_FORM//
+main{
+    background-color: aliceblue;
+    color: #164B60;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    .formulario input{
+        width: 30rem;
+        height: 3rem;
+        border-radius: 10px;
+    }
+    .formulario label{
+        font-size: 1.3rem;
+    }
+    .input-group{
+        width: 28rem;
+        font-size: 1.8rem;
+        border-radius: 10px;
+        .form-select{
+            color: #164B60;
+            background-color: #f7f7f2;
+            font-size: 1.3rem;
+        }
+    
+    }
+    button{
+        background-color: #164B60;
+        border: none;
+        width: 12rem;
+        height: 3rem;
+        color: #f7f7f2;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}

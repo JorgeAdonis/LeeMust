@@ -1,463 +1,410 @@
-/* HEADER*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-size: 62.5%;
-    font-family: 'Montserrat', sans-serif;
-    
- 
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*NavBar Univer*/
-body{
-    background-color: #164B60;
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
 }
-.navbar img{
-    height: 4rem;
-    width: 9rem;
-    margin-left: 2rem;
-}
-.navbar a{
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(224, 239, 252);
-    text-decoration: none;
-    
-}
-.navbar-nav .nav-item{
-    font-size: 1.6rem;
-    padding-right: 6rem;
-    color: rgb(224, 239, 252);
-    font-family: 'Montserrat', sans-serif;
-                 
-}
-.nav-item:hover{
-    color:rgba(243, 62, 7, 0.979);
-    text-decoration: solid;
-    
-}
-/*Footer*/
-footer .logo1{
-    background-color: #164B60;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
- 
- .logo1 img{
-     width: 10rem;
-     height: 7rem;
-     margin-top: 3rem;
- 
- 
- }
- 
- footer h4{
-    font-size: 1rem;
-    font-family:'Montserrat', sans-serif ;
-    margin-top: 2rem;
-    color: #ffffff;
-    text-align: center;
-    justify-content: center;
-    
- }
- 
- form{
-     align-items: center;
-     justify-content: center;
-     margin: 1rem;
- }
- form input{
-     width: 12rem;
-     font-family:'Montserrat', sans-serif ;
-     color: #164B60;
-     align-items: center;
-     justify-content: center;
- }
- form button{
-     width: 5rem;
-     font-family:'Montserrat', sans-serif ;
-     border-radius: 1rem;
-     color: #164B60;   
-     border: none; 
- }
- footer .logos{
-     padding-top: 1rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     background-color: #164B60;
-     margin: 1.2rem;
- 
- }
- .logos img{
-     height: 1.8rem;
-     width: 1.8rem;
- }
- 
 
-/*Header INDEX*/
-.hin{
-    background-image: url(/Medios/imagenes/backgroundweb.png);
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-
+body {
+  background-color: #164B60;
 }
-.hin h3{
-    color: rgb(63, 77, 90);
-    font-size: 5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+nav img {
+  height: 4rem;
+  width: 9rem;
+  margin-left: 2rem;
 }
-.hin p{
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    color:black
+nav a {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(224, 239, 252);
+  text-decoration: none;
+}
+nav .navbar-nav a {
+  font-size: 1.6rem;
+  padding-right: 6rem;
+  color: rgb(224, 239, 252);
+  font-family: "Montserrat", sans-serif;
+}
+nav .nav-item:hover {
+  color: rgba(243, 62, 7, 0.979);
+  text-decoration: solid;
+}
+
+.title2 {
+  color: #164B60;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  padding: 6.25rem 0px 0px 3.75rem;
+  margin-bottom: 0px;
+}
+
+footer {
+  border-radius: 10px;
+}
+footer .logo1 {
+  background-color: #164B60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .logo1 img {
+  width: 10rem;
+  height: 7rem;
+  margin-top: 3rem;
+}
+footer h4 {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+footer form {
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+footer form input {
+  width: 12rem;
+  font-family: "Montserrat", sans-serif;
+  color: #164B60;
+  align-items: center;
+  justify-content: center;
+}
+footer form button {
+  width: 5rem;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 1rem;
+  color: #164B60;
+  border: none;
+}
+footer .logos {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #164B60;
+  margin: 1.2rem;
+}
+footer .logos img {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+button:hover {
+  background-color: #f7f7f2;
+  text-decoration: solid;
+  color: #164B60;
+  border: #164B60;
+}
+
+.hin {
+  background-image: url(/Medios/imagenes/backgroundweb.png);
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+}
+.hin h3 {
+  color: rgb(63, 77, 90);
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.hin p {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 /*Buscador INDEX*/
-#buscador{
-    background-image: url(/Medios/imagenes/backgroundweb2.png);
-    height: 60rem;
-    background-size: cover;
-    margin: 0;
-
+#buscador {
+  background-image: url(/Medios/imagenes/backgroundweb2.png);
+  height: 60rem;
+  background-size: cover;
+  margin: 0;
 }
-form .me-2{
-    height: 4rem;
-    width: 37.5rem;
-    font-size: 1.8rem;
-    border-radius: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    background-color:#f7f7f2;
-    border: none;
-
+#buscador form .me-2 {
+  height: 4rem;
+  width: 37.5rem;
+  font-size: 1.8rem;
+  border-radius: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f2;
+  border: none;
 }
-form .btnbuscar{
-    width: 15rem;
-    margin-top: 2rem;
-    height: 3rem;
-    border: none;
-    background-color:rgb(252, 252, 252); ;
-    font-size: 1.8rem ;
-    color: #164B60;
-    border-radius: 2rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-
+#buscador form .btnbuscar {
+  width: 15rem;
+  margin-top: 2rem;
+  height: 3rem;
+  border: none;
+  background-color: rgb(252, 252, 252);
+  font-size: 1.8rem;
+  color: #164B60;
+  border-radius: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.btnbuscar:hover{
-    background-color:#164B60;
-    color: rgb(247, 247, 242);
-
+#buscador .btnbuscar:hover {
+  background-color: #164B60;
+  color: rgb(247, 247, 242);
 }
 
-/*Cards INDEX*/
-section .row{
-    margin: 0;
-    background-color:#f7f7f2;
-    padding: 0;
+/*CARDS INDEX*/
+section .row {
+  margin: 0;
+  background-color: #f7f7f2;
+  padding: 0;
 }
-section .row .bor{
-    width: 30rem;
+section .row .row .bor {
+  width: 30rem;
 }
-.bor .card{
-    border-radius: 10px 10px 10px 10px;
-    color: #164B60;
-
+section .row .row .bor .card {
+  border-radius: 10px 10px 10px 10px;
+  color: #164B60;
 }
-section .card img{
-    width: 20rem;
-    height: 15rem;
-    border-radius: 15%;
-    margin: 2rem;
+section .row .row .bor img {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 15%;
+  margin: 2rem;
 }
-section .card h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+section .row .row .bor h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
 }
-section .card p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+section .row .row .bor p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
-section .card button{
-    color: #f7f7f2;
-    background-color: #164B60;
-    margin-bottom: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    width: 12rem;
-    margin-left: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-
+section .row .row .bor button {
+  color: #f7f7f2;
+  background-color: #164B60;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  width: 12rem;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
-.card button:hover{
-    background-color: #f7f7f2;
-    text-decoration: solid;
-    color: #164B60;
-    border: #164B60;
+section .row .row .bor button:hover {
+  background-color: #f7f7f2;
+  text-decoration: solid;
+  color: #164B60;
+  border: #164B60;
 }
 
-
-/*CONTACTANOS_HEADER*/
-.fr{
-    background-image: url(/Medios/imagenes/Backgroundcontac.png);
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
+.nov {
+  background-image: url(/Medios/imagenes/Backgroundnoveda.png);
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
 }
-.fr h3{
-    color: rgb(44, 58, 71);
-    font-size: 5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+.nov h3 {
+  color: rgb(44, 58, 71);
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.fr p{
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    color:black
-}
-/*CONTACTANOS_FORM*/
-main{
-    background-color: aliceblue;
-    color: #164B60;
-    font-family: 'Montserrat', sans-serif;
-    padding: 0;
-}
-.mt-0 .formulario input{
-    width: 30rem;
-    height: 3rem;
-    border-radius: 10px;
-}
-.mt-0 .formulario label{
-    font-size: 1.3rem;
-}
-.mt-0 .input-group{
-    width: 28rem;
-    font-size: 1.8rem;
-    border-radius: 10px;
-
+.nov p {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
-.mt-0 .input-group .form-select{
-    color: #164B60;
-    background-color: #f7f7f2;
-    font-size: 1.3rem;
+.tnv {
+  background-color: #f7f7f2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 10px 9px 5px 3px rgba(0, 0, 0, 0.51);
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
 }
-.mt-0 button{
-    background-color: #164B60;
-    border: none;
-    width: 12rem;
-    height: 3rem;
-    color: #f7f7f2;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+.tnv .contno {
+  border-radius: 20px;
+  margin: 3rem;
+  margin-top: 4rem;
+  background-color: #f7f7f2;
+  color: #164B60;
 }
-
-
-/*HEADER_EDITORIALES*/
-.edi{
-    background-image: url(/Medios/imagenes/Backgroundedito.png);
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-
+.tnv .contno img {
+  width: 12rem;
+  height: 20rem;
+  border-radius: 15px;
 }
-.edi h3{
-    color: rgb(44, 58, 71);
-    font-size: 5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+.tnv .contno .novtext h3 {
+  font-size: 1.8rem;
+  color: #164B60;
+  margin-top: 1rem;
+  text-decoration: solid;
 }
-.edi p{
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    color:black
+.tnv .contno .novtext h4 {
+  font-size: 1.3rem;
+  color: #164B60;
+  margin-top: 1rem;
+  text-decoration: solid;
 }
-/*CARDS_EDITORIALES*/
-.edito img{
-    width: 30rem;
-    height: 20rem;
-    margin-top: 5rem;
-    border-radius: 10px;
+.tnv .contno .novtext h5 {
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+  font-family: "Montserrat", sans-serif;
 }
-.edito h4{
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color:#164B60;
-    margin-top: 5rem;
+.tnv .contno .novtext img {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
 }
-.edito h5{
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color:#164B60;
-    margin-top: 5rem;
+.tnv .contno .novtext button {
+  height: 3rem;
+  width: 10rem;
+  background-color: #164B60;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  color: #f7f7f2;
+  align-items: center;
+  justify-content: center;
 }
-.edito button{
-    color: #f7f7f2;
-    background-color: #164B60;
-    margin-bottom: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    width: 12rem;
-    margin-left: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
+.tnv .contno .novtext button:hover {
+  background-color: #f7f7f2;
+  color: #164B60;
 }
-
-
-/*BIBLIO_HEADER*/
-.bio{
-    background-image: url(/Medios/imagenes/Backgroundbiblio.png);
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-    
+.tnv .bs {
+  height: 5rem;
+  width: 18rem;
+  background-color: #164B60;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  color: #f7f7f2;
+  align-items: end;
+  justify-content: center;
 }
-.bio h3{
-    color: rgb(44, 58, 71);
-    font-size: 5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-.bio p{
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    color:black
+.tnv .bs:hover {
+  background-color: #f7f7f2;
+  color: #164B60;
 }
 
-
-
-
-
-
-
-
-
-
-/*NOVEDADES__HEADER*/
-.nov{
-    background-image: url(/Medios/imagenes/Backgroundnoveda.png);
-    background-size: cover;
-    width: 100%;
-    height: 35rem;
-    
+.bio {
+  background-image: url(/Medios/imagenes/Backgroundbiblio.png);
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
 }
-.nov h3{
-    color: rgb(44, 58, 71);
-    font-size: 5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+.bio h3 {
+  color: rgb(44, 58, 71);
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.nov p{
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    color:black
+.bio p {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
-/*NOVEDADES__CARDS*/
-section .tnv{
-    background-color: #f7f7f2;
-    padding-top:  2rem;
-    padding-bottom: 2rem;
-    box-shadow: 10px 9px 5px 3px rgba(0,0,0,0.51);
-    border-radius: 20px;
-    font-family: 'Montserrat', sans-serif;
-    
+.edi {
+  background-image: url(/Medios/imagenes/Backgroundedito.png);
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
 }
-.tnv .contno{
-    border-radius: 20px;
-    margin: 3rem;
-    margin-top: 4rem;
-    background-color: #f7f7f2;
-    color:#164B60;
-
+.edi h3 {
+  color: rgb(44, 58, 71);
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.contno img{
-    width: 12rem;
-    height: 20rem;
-    border-radius: 15px;
-}
-.novtext h3{
-    font-size: 1.8rem;
-    color:#164B60;
-    margin-top: 1rem;
-    text-decoration: solid;
-}
-.novtext h4{
-    font-size: 1.3rem;
-    color:#164B60;
-    margin-top: 1rem;
-    text-decoration: solid;
+.edi p {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
-.novtext h5{
-    font-size: 1.2rem;
-    margin-top: 1.3rem;
-    font-family: 'Montserrat', sans-serif;
-
+.edito img {
+  width: 30rem;
+  height: 20rem;
+  margin-top: 5rem;
+  border-radius: 10px;
 }
-.novtext img{
-        width: 10rem;
-        height: 2rem;
-        margin-top: 1rem;
-        
+.edito h4 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #164B60;
+  margin-top: 5rem;
 }
-.novtext button{
-    height: 3rem;
-    width: 10rem;
-    background-color: #164B60;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 10px;
-    font-size: 1.8rem;
-    color: #f7f7f2;
-    align-items: center;
-    justify-content: center;
-
-
+.edito h5 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #164B60;
+  margin-top: 5rem;
 }
-
-.novtext button:hover{
-    background-color: #f7f7f2;
-    color: #164B60;
-}
-.btnseg:hover{
-    background-color: #f7f7f2;
-    color: #164B60;
+.edito button {
+  color: #f7f7f2;
+  background-color: #164B60;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  width: 12rem;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
-.bs{
-    height: 5rem;
-    width: 18rem;
-    background-color: #164B60;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 10px;
-    font-size: 1.8rem;
-    color: #f7f7f2;
-    align-items: end;
-    justify-content: center;
+.fr {
+  background-image: url(/Medios/imagenes/Backgroundcontac.png);
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+}
+.fr h3 {
+  color: rgb(44, 58, 71);
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.fr p {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
 
+main {
+  background-color: aliceblue;
+  color: #164B60;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
 }
-.bs:hover{
-    background-color: #f7f7f2;
-    color: #164B60;
+main .formulario input {
+  width: 30rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+main .formulario label {
+  font-size: 1.3rem;
+}
+main .input-group {
+  width: 28rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
+main .input-group .form-select {
+  color: #164B60;
+  background-color: #f7f7f2;
+  font-size: 1.3rem;
+}
+main button {
+  background-color: #164B60;
+  border: none;
+  width: 12rem;
+  height: 3rem;
+  color: #f7f7f2;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
-/*Subitutilo*/
-.title2{
-    color: #164B60;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3rem;
-    padding: 6.25rem 0px 0px 3.75rem;
-    margin-bottom: 0px;
-    
-}
+/*# sourceMappingURL=Css.css.map */
