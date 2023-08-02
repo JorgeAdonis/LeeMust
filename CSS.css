@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,9 @@ body {
   background-color: #164B60;
 }
 
+nav {
+  background: linear-gradient(0.25turn, #e1f0f7, #5896af, #164B60);
+}
 nav img {
   height: 4rem;
   width: 9rem;
@@ -28,10 +32,13 @@ nav .navbar-nav a {
   padding-right: 6rem;
   color: rgb(224, 239, 252);
   font-family: "Montserrat", sans-serif;
+  transition: height 3s;
 }
 nav .nav-item:hover {
-  color: rgba(243, 62, 7, 0.979);
-  text-decoration: solid;
+  background-color: aliceblue;
+  background-size: 2rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
 }
 
 .title2 {
@@ -108,6 +115,9 @@ button:hover {
   background-size: cover;
   width: 100%;
   height: 35rem;
+  animation-duration: 4s;
+  animation-name: neblina;
+  animation-iteration-count: none;
 }
 .hin h3 {
   color: rgb(63, 77, 90);
@@ -128,13 +138,19 @@ button:hover {
   margin: 0;
 }
 #buscador form .me-2 {
-  height: 4rem;
-  width: 37.5rem;
-  font-size: 1.8rem;
+  height: 3rem;
+  width: 30rem;
+  font-size: 1.5rem;
   border-radius: 1.2rem;
   font-family: "Montserrat", sans-serif;
   background-color: #f7f7f2;
   border: none;
+  transition: all 500ms;
+}
+#buscador .me-2:focus {
+  height: 4rem;
+  width: 37rem;
+  font-size: 1.8rem;
 }
 #buscador form .btnbuscar {
   width: 15rem;
@@ -204,11 +220,17 @@ section .row .row .bor button:hover {
   background-size: cover;
   width: 100%;
   height: 35rem;
+  animation-duration: 3s;
+  animation-name: neblina;
+  animation-iteration-count: none;
 }
 .nov h3 {
   color: rgb(44, 58, 71);
   font-size: 5rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation-duration: 4s;
+  animation-name: neblina;
+  animation-iteration-count: none;
 }
 .nov p {
   font-size: 1.8rem;
@@ -253,6 +275,12 @@ section .row .row .bor button:hover {
   margin-top: 1.3rem;
   font-family: "Montserrat", sans-serif;
 }
+.tnv .contno .novtext p {
+  font-size: 1.3rem;
+  color: #164B60;
+  margin-top: 1rem;
+  text-decoration: solid;
+}
 .tnv .contno .novtext img {
   width: 10rem;
   height: 2rem;
@@ -294,6 +322,9 @@ section .row .row .bor button:hover {
   background-size: cover;
   width: 100%;
   height: 35rem;
+  animation-duration: 4s;
+  animation-name: neblina;
+  animation-iteration-count: none;
 }
 .bio h3 {
   color: rgb(44, 58, 71);
@@ -311,6 +342,9 @@ section .row .row .bor button:hover {
   background-size: cover;
   width: 100%;
   height: 35rem;
+  animation-duration: 3s;
+  animation-name: neblina;
+  animation-iteration-count: none;
 }
 .edi h3 {
   color: rgb(44, 58, 71);
@@ -360,6 +394,9 @@ section .row .row .bor button:hover {
   background-size: cover;
   width: 100%;
   height: 35rem;
+  animation-duration: 3s;
+  animation-name: neblina;
+  animation-iteration-count: none;
 }
 .fr h3 {
   color: rgb(44, 58, 71);
@@ -373,6 +410,7 @@ section .row .row .bor button:hover {
 }
 
 main {
+  background: radial-gradient(aliceblue, #95c2d4);
   background-color: aliceblue;
   color: #164B60;
   font-family: "Montserrat", sans-serif;
@@ -405,6 +443,15 @@ main button {
   border-radius: 10px;
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
+}
+
+@keyframes neblina {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=Css.css.map */
