@@ -200,7 +200,8 @@ section .row .row .bor button {
   background-color: #164B60;
   margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  height: 3rem;
   width: 12rem;
   margin-left: 25%;
   display: flex;
